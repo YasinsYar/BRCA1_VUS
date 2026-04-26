@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "AlphaFold-derived local structural confidence in BRCA1 missense variant interpretation: a ClinVar-based computational analysis"
+version: "1.0.0"
+type: software
+message: "If you use this software or the accompanying master table, please cite it using the metadata in this file."
+abstract: "A reproducible computational analysis pipeline for integrating ClinVar BRCA1 missense variants with Ensembl VEP annotations, AlphaFold-derived local structural confidence values, and UniProt domain annotations."
+authors:
+  - family-names: "Yasinskyi"
+    given-names: "Yaroslav"
+    orcid: "https://orcid.org/0000-0002-4801-8678"
+keywords:
+  - BRCA1
+  - ClinVar
+  - missense variants
+  - variant interpretation
+  - AlphaFold
+  - pLDDT
+  - VEP
+license: "MIT"
+repository-code: "https://github.com/YasinsYar/BRCA1_VUS"

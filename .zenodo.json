@@ -1,0 +1,25 @@
+{
+  "creators": [
+    {
+      "name": "Yasinskyi, Yaroslav",
+      "orcid": "0000-0002-4801-8678"
+    }
+  ],
+  "title": "AlphaFold-derived local structural confidence in BRCA1 missense variant interpretation: a ClinVar-based computational analysis",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "A reproducible computational analysis pipeline for integrating ClinVar BRCA1 missense variants with Ensembl VEP annotations, AlphaFold-derived local structural confidence values, and UniProt domain annotations. The v1.0.0 release includes the software pipeline and the generated master table.",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "BRCA1",
+    "ClinVar",
+    "missense variants",
+    "variant interpretation",
+    "AlphaFold",
+    "pLDDT",
+    "VEP"
+  ],
+  "language": "eng",
+  "notes": "Code is released under the MIT License. Generated result files, including results/tables/master.tsv, are released under CC0 1.0 Universal as specified in LICENSE-DATA.md. A manuscript with the same title is planned but has not yet been submitted for publication."
+}

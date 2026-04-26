@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.docx
+~$*.docx
+
+# Large data and caches
+env/
+outsource/
+
+data_raw/
+data_int/
+
+# DOI release includes only the master table from generated results.
+results/*
+!results/README.md
+!results/tables/
+results/tables/*
+!results/tables/master.tsv
