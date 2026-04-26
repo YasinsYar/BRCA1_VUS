@@ -1,8 +1,10 @@
 # AlphaFold-derived local structural confidence in BRCA1 missense variant interpretation: a ClinVar-based computational analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19789707.svg)](https://doi.org/10.5281/zenodo.19789707)
+
 This repository contains a reproducible pipeline for analysing ClinVar BRCA1 missense variants together with Ensembl VEP annotations, AlphaFold per-residue pLDDT values, and UniProt domain annotations.
 
-Version `v1.0.0` is prepared as a software release with the generated master table.
+Version `v1.0.0` is archived on Zenodo with DOI [`10.5281/zenodo.19789707`](https://doi.org/10.5281/zenodo.19789707).
 
 ## Repository Contents
 
@@ -89,4 +91,6 @@ Code is released under the MIT License. Generated result files, including `resul
 
 Citation metadata are provided in `CITATION.cff` and Zenodo release metadata are provided in `.zenodo.json`.
 
-After Zenodo archives the GitHub release, add the assigned DOI badge and DOI citation to this README.
+Please cite the archived release:
+
+Yasinskyi, Y. (2026). AlphaFold-derived local structural confidence in BRCA1 missense variant interpretation: a ClinVar-based computational analysis (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19789707

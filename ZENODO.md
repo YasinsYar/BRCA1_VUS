@@ -55,6 +55,7 @@ Exclude:
 - ORCID: `0000-0002-4801-8678`
 - Version: `1.0.0`
 - Git tag: `v1.0.0`
+- DOI: `10.5281/zenodo.19789707`
 - Upload type: `software`
 - Repository: `https://github.com/YasinsYar/BRCA1_VUS`
 - Code license: MIT
@@ -78,10 +79,10 @@ git push origin v1.0.0
 ```
 
 5. Create a GitHub release from the tag.
-6. Wait for Zenodo to archive the release and assign a DOI.
+6. Wait for Zenodo to archive the release and assign a DOI: completed, `10.5281/zenodo.19789707`.
 7. In the Zenodo record, verify that the rights information reflects both the MIT code license and the CC0 license for generated result files where Zenodo's mixed-license interface is available.
-8. Add the Zenodo DOI badge to `README.md` after the DOI is available.
+8. Add the Zenodo DOI badge to `README.md` after the DOI is available: completed.
 
 ## Post-release
 
-After Zenodo assigns the DOI, add the DOI badge and DOI citation to `README.md`. If the manuscript is later published, add its DOI as a related identifier in the next release.
+If the manuscript is later published, add its DOI as a related identifier in the next release.
