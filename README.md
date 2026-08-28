@@ -20,12 +20,12 @@ Version `v1.0.0` is archived on Zenodo with DOI [`10.5281/zenodo.19789707`](http
 
 ## Data Sources
 
-- ClinVar GRCh38 VCF from the official NCBI FTP endpoint.
+- ClinVar GRCh38 VCF archive dated 1 February 2026: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/archive_2.0/2026/clinvar_20260201.vcf.gz
 - Ensembl VEP Docker image: `ensemblorg/ensembl-vep:release_115.2`.
-- AlphaFold BRCA1 model: `AF-P38398-F1`.
-- UniProt BRCA1 accession: `P38398`.
+- AlphaFold BRCA1 model: `AF-P38398-F1-model_v6` (https://alphafold.ebi.ac.uk/entry/P38398), accessed 4 February 2026.
+- UniProt BRCA1 accession: `P38398`, accessed 4 February 2026.
 
-For the result files currently present in the local workspace, the methods note reports ClinVar `fileDate=2026-02-01`, with AlphaFold and UniProt accessed on `2026-02-04`.
+Identifiers, access dates, and roles are listed in `DATA_PROVENANCE.md`.
 
 ## Requirements
 

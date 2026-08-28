@@ -5,25 +5,9 @@ from pathlib import Path
 from Bio.PDB import PDBParser
 
 UNIPROT = "P38398"
-API_URL = f"https://alphafold.ebi.ac.uk/api/prediction/{UNIPROT}"
+PDB_URL = "https://alphafold.ebi.ac.uk/files/AF-P38398-F1-model_v6.pdb"
 OUT_PDB = Path("data_raw/alphafold") / f"AF-{UNIPROT}-F1.pdb"
 OUT_NPY = Path("data_int/brca1_plddt_by_residue.npy")
-
-
-def fetch_urls():
-    r = requests.get(API_URL, timeout=60)
-    r.raise_for_status()
-    data = r.json()
-    if not data:
-        raise RuntimeError("AlphaFold API returned empty response")
-    entry = data[0]
-    urls = []
-    for k in ["pdbUrl", "pdb_url", "cifUrl", "cif_url"]:
-        if k in entry and entry[k]:
-            urls.append(entry[k])
-    if not urls:
-        raise RuntimeError("No pdb/cif URL found in AlphaFold API response")
-    return urls
 
 
 def download(urls, path):
@@ -56,8 +40,7 @@ def choose_chain(structure):
 
 def main():
     Path("data_int").mkdir(parents=True, exist_ok=True)
-    urls = fetch_urls()
-    download(urls, OUT_PDB)
+    download([PDB_URL], OUT_PDB)
     parser = PDBParser(QUIET=True)
     structure = parser.get_structure("brca1", str(OUT_PDB))
     chain = choose_chain(structure)

@@ -259,6 +259,8 @@ def main():
         ax.bar(x, vals, bottom=bottom, label=b)
         bottom += vals
     ax.set_ylabel("Variant count")
+    if len(bottom) and bottom.max() > 0:
+        ax.set_ylim(0, bottom.max() * 1.08)
     ax.set_xticks(x)
     ax.set_xticklabels(pivot.index, rotation=30, ha="right")
     ax.legend(title="pLDDT bin", fontsize=8)
