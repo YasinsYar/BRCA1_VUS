@@ -6,9 +6,9 @@
     }
   ],
   "title": "AlphaFold-derived local structural confidence in BRCA1 missense variant interpretation: a ClinVar-based computational analysis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "upload_type": "software",
-  "description": "A reproducible computational analysis pipeline for integrating ClinVar BRCA1 missense variants with Ensembl VEP annotations, AlphaFold-derived local structural confidence values, and UniProt domain annotations. The v1.0.0 release includes the software pipeline and the generated master table.",
+  "description": "A reproducible computational analysis pipeline for integrating ClinVar BRCA1 missense variants with Ensembl VEP annotations, AlphaFold-derived local structural confidence values, and UniProt domain annotations. The v1.0.1 release includes the software pipeline and the generated master table.",
   "access_right": "open",
   "license": "mit",
   "keywords": [
